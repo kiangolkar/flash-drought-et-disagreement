@@ -1,0 +1,14 @@
+# Core
+torch>=2.7
+numpy>=1.24
+pandas>=2.0
+scikit-learn==1.5.1     # pinned: scalers.pkl was fitted with this version
+
+# Figures
+matplotlib>=3.7
+
+# Optional, for the tree-based baselines
+xgboost>=2.0
+
+# Install a torch build matching your CUDA version, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
